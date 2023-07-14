@@ -17,12 +17,13 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
+    margin: 5rem;
 }
 
 .img-container > img {
     max-width: 100%;
     height: auto;
-    padding: 10%;
+    /* padding: 10%; */
 }
 
 .img-container, .content-container {
@@ -34,7 +35,7 @@
     flex-direction: column;
     gap: 40px;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .content-container h1,p {
@@ -61,4 +62,13 @@ a{
 
 .back-homepage a {
     color: white;
+}
+
+.footer {
+    color: #857b7b;
+    font-size: smaller;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5rem;
 }
