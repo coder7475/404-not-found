@@ -72,3 +72,25 @@ a{
     padding: 20px;
     margin-top: 5rem;
 }
+
+
+/* Responsive media query for mobile devices  */
+@media screen and (max-width: 576px){
+    .main-container{
+        flex-direction: column;
+    }
+    .img-container, .content-container {
+        width: 80vw;
+    }
+    .content-container h1,p {
+        width: 100vw;
+        padding: 1vw;
+    }
+    .img-container > img {
+        width: 100vw;
+        height: max-content;
+    }
+    .back-homepage {
+        width: 80vw;
+    }
+}
