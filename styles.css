@@ -8,8 +8,9 @@
 .header {
     background-color: #fffdfd;
     color: #303030;
-    padding: 2%;
-    font-size: small;
+    padding: 20px;
+    font-size: x-large;
+    margin: 0 10%;
 }
 
 .main-container {
