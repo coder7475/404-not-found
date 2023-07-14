@@ -6,8 +6,59 @@
 }
 
 .header {
-    background-color: #303030;
-    color: #e0d8d8;
+    background-color: #fffdfd;
+    color: #303030;
     padding: 2%;
+    font-size: small;
 }
 
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.img-container > img {
+    max-width: 100%;
+    height: auto;
+    padding: 10%;
+}
+
+.img-container, .content-container {
+    width: 50%;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.content-container h1,p {
+    width: 50%;
+}
+
+h1 {
+    font-family: "Impact", "sans-serif";
+    font-weight: 800;
+}
+
+p {
+    font-family: 'Segoe UI', 'Open Sans';
+}
+
+.back-homepage {
+    background-color: black;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.back-homepage a {
+    color: white;
+}
